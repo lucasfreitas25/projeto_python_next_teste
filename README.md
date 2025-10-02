@@ -1,40 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Projeto Python + Next.js
 
-## Getting Started
+Este projeto foi desenvolvido como parte de um desafio prático, com o objetivo de integrar **Python** no backend e **Next.js** no frontend.
 
-First, run the development server:
+Apesar de ter sido minha primeira experiência utilizando o framework **Next.js** em conjunto com **Python**, consegui implementar funcionalidades iniciais importantes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funcionalidades Implementadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Login de usuário** (autenticação básica).
+* **Cadastro e listagem de clientes**.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Desafios Enfrentados
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Este projeto representou um grande aprendizado para mim, pois:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+* Foi minha primeira vez trabalhando com **Next.js**, o que trouxe uma curva de aprendizado significativa.
+* Também precisei adaptar conceitos de **Python** para uso em uma aplicação web integrada.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Aprendizados
 
-## Learn More
+* Entendi melhor como estruturar projetos full-stack unindo **frontend em Next.js** e **backend em Python**.
+* Consegui compreender na prática como funciona a comunicação entre as camadas.
+* Apesar das dificuldades, garanti a entrega de uma versão funcional com parte das funcionalidades solicitadas.
 
-To learn more about Next.js, take a look at the following resources:
+## Próximos Passos (Evolução do Projeto)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+* Implementar outras áreas da aplicação conforme descrito no desafio.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Este projeto, ainda que simples, foi uma experiência enriquecedora e desafiadora, que reforçou minha determinação em aprender e evoluir como desenvolvedor.
