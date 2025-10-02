@@ -16,8 +16,8 @@ function ClientesPage() {
   const [totalPages, setTotalPages] = useState(1);
   const [active, setActive] = useState("Clientes");
 
-  const pageSize = 5; // quantidade de clientes por página
-
+  const pageSize = 5;
+  
   const menuItems = [
     { name: "Dashboard", path: "/dashboard/dashboard_page" },
     { name: "Clientes", path: "/dashboard/clientes_page" },

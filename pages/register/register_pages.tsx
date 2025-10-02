@@ -26,7 +26,7 @@ function RegisterPage() {
       }
 
       alert("Usuário registrado com sucesso: " + data.email);
-      router.push("/login/login_page"); // volta para login após registro
+      router.push("/login/login_page"); 
     } catch (err) {
       console.error(err);
       setError("Erro ao conectar com a API");

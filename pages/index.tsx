@@ -5,8 +5,8 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    router.replace("/login/login_page"); // redireciona sem voltar no histórico
+    router.replace("/login/login_page"); 
   }, [router]);
 
-  return null; // ou um spinner de carregamento
+  return null; 
 }

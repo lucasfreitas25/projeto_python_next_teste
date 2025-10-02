@@ -12,7 +12,7 @@ function LoginPage() {
     e.preventDefault();
     try {
       const formData = new URLSearchParams();
-      formData.append("username", email); // OAuth2PasswordRequestForm usa 'username'
+      formData.append("username", email);
       formData.append("password", password);
 
       const response = await fetch("http://localhost:8000/api/auth/login", {
